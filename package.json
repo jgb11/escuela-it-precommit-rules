@@ -1,0 +1,32 @@
+{
+  "name": "escuela-it-precommit-rules",
+  "version": "0.0.1",
+  "description": "Frontend precommit rules",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "npm run lint:eslint && npm run lint:sass",
+    "lint:eslint": "eslint --ext=.js --ext=.jsx ./src/ ./test/ ./docs/",
+    "lint:sass": "scss-lint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgb11/escuela-it-precommit-rules.git"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "José Luis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgb11/escuela-it-precommit-rules/issues"
+  },
+  "homepage": "https://github.com/jgb11/escuela-it-precommit-rules#readme",
+  "devDependencies": {
+    "@schibstedspain/frontend-pre-commit-rules": "^6.5.1",
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.12.0",
+    "node-sass": "^3.4.2",
+    "sass-lint": "^1.4.0"
+  }
+}
