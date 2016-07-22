@@ -6,7 +6,7 @@ Uso de frontend pre-commit rules para la mejora de la calidad del código
 
 ----------------------------------------------
 
-Las pre-commit rules saltan automaticamente al hacer commit, pero existen los siugientes comandos para ejecutarlas independientemente
+Las pre-commit rules saltan automaticamente al hacer commit, pero existen los siguientes comandos para ejecutarlas independientemente
 ```
 // JavaScript y Sass:
 $ npm run lint
