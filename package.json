@@ -8,6 +8,9 @@
     "lint:eslint": "eslint --ext=.js --ext=.jsx ./src/ ./test/ ./docs/",
     "lint:sass": "scss-lint src/"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jgb11/escuela-it-precommit-rules.git"
