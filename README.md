@@ -1,6 +1,6 @@
 # Frontend Pre-commit Rules
 
-[Directo emitido en desarrolloweb.com](http://www.desarrolloweb.com/en-directo/frontend-pre-commit-rules-8934.html) | [Presentación](http://davecarter.github.io/frontend-hangout/#/)
+[Vídeo emitido en desarrolloweb.com](http://www.desarrolloweb.com/en-directo/frontend-pre-commit-rules-8934.html) | [Presentación](http://davecarter.github.io/frontend-hangout/#/)
 
 Uso de frontend pre-commit rules para la mejora de la calidad del código
 
